@@ -2,4 +2,4 @@
 articulo= float(input("Dame el importe de su articulo: "))
 iva = 0.10 
 total = articulo * iva
-print(f"El importe solo es {articulo} y el articulo + iva es de {total}")
+print("El importe solo es {:.2f} y el articulo + iva es de {:.2f}".format(articulo, total))
