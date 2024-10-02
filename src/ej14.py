@@ -3,9 +3,9 @@
 numpayaso = int(input("Cuántos payasos se han vendido en el último paquete: "))
 nummuneca = int(input("Cuántas muñecas se han vendido en el último paquete: "))
 
-pesotpayaso = (numpayaso * 0.112)
-pesotmuneca = (nummuneca * 0.075)
+pesotpayaso = (numpayaso * 0.112) # en gramos convertidos a kg
+pesotmuneca = (nummuneca * 0.075) # en gramos convertidos a kg
 
-totalpaquete = pesotmuneca + pesotpayaso
+totalpaquete = pesotmuneca + pesotpayaso # en kg
 
 print("el peso total del paquete es: {:.2f} kg".format(totalpaquete))
