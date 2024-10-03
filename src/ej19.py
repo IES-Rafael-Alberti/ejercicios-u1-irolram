@@ -10,7 +10,9 @@ def num_letras(nom):
 def main():
 
     nombre = input("Introduce tu nombre: ")
-    print("{} tiene {} letras".format(nombre,nombre ))
+    nombre_mayus = mayus(nombre)
+    numero_letras = num_letras(nombre)
+    print("{} tiene {} letras".format(nombre_mayus,numero_letras ))
 
 
     
