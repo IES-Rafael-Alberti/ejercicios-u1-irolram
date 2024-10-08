@@ -10,7 +10,7 @@ def main():
     coste_total = precio * unidades
     
     # 6 dígitos enteros para el precio unitario, 3 dígitos para unidades y 8 para el coste total
-    print(f"{producto}: {precio:6.2f} € por unidad, {unidades:3d} unidades, Total: {coste_total:8.2f} €")
+    print(f"{producto}: {precio:09.2f} € por unidad, {unidades:03d} unidades, Total: {coste_total:011.2f} €")
 
 if __name__ == "__main__":
     main()
