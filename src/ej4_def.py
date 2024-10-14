@@ -3,7 +3,7 @@
 
 
 def farenheit_funcion():
-    farenheit = input("Dame los grados farenheit: ")
+    farenheit = float(input("Dame los grados farenheit: "))
 
     return farenheit
 
@@ -14,8 +14,8 @@ def celsius_funcion(farenheit):
 
 def main():
     conversion = farenheit_funcion()
-    xd = celsius_funcion(farenheit)
-    print("La conversión es {}, {} ".format(conversion, xd))
+    celsius = celsius_funcion(conversion)
+    print("La conversión es {:.2f}º farenheit, {:.2f}º celsius.".format(conversion, celsius))
 
 if __name__ == "__main__":
     main()
