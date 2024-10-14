@@ -3,8 +3,19 @@
 import random
 
 def calculo_de_los_numero():
+
+def main():
+
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
 
 """
 def main():
