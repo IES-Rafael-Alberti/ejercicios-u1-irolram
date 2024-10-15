@@ -7,14 +7,20 @@ def introducir_numero():
     return num
 
 def comprobar_primo(num):
-    if num % num == 0 and num % 1 == 0:
-        return print("Es primo")
-    else:
-        return print("No es primo")
+    if num < 2:
+        return False
+    for i in range(2, num):
+         if num % i == 0:
+            return False
+    return True 
     
 def main():
     num = introducir_numero()
-    comprobar_primo(num)
+    if comprobar_primo(num):
+        print(f"{num} es un número primo.")
+    else:
+        print(f"{num} no es un número primo.")
+    
 
 if __name__ == "__main__":
     main()
